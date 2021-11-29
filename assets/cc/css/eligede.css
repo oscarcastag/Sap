@@ -1,0 +1,14 @@
+// Estirar el control de autocompletar
+.autocompletar:focus{
+   width: 300px;
+}
+.busqueda {
+   padding-bottom: 5px;
+   border-bottom: 2px solid;
+   border-bottom-color: gainsboro;
+}
+
+.busqueda label{
+   font-weight: bold;
+
+}

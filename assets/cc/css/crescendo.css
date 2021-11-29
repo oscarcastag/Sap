@@ -1,0 +1,18 @@
+.table.table-condensed{
+  width: 100% !important;
+}
+.table.table-condensed td
+{
+  padding: 0.2rem 0.8rem;
+}
+
+.table.table-condensed th
+{
+  padding: 0.6rem 2rem;
+}
+ .table.table-condensed input
+ {
+   width: 80px;
+   padding: 3px;
+   text-align: center;
+ }

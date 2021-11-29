@@ -1,0 +1,94 @@
+.ui-autocomplete span {
+   background-color: #ffff66;
+}
+
+.ui-autocomplete button {
+   display: inline-block;
+   padding: 6px 12px;
+   margin-bottom: 0;
+   font-size: 14px;
+   font-weight: normal;
+   line-height: 1.42857143;
+   text-align: center;
+   white-space: nowrap;
+   vertical-align: middle;
+   -ms-touch-action: manipulation;
+       touch-action: manipulation;
+   cursor: pointer;
+   -webkit-user-select: none;
+      -moz-user-select: none;
+       -ms-user-select: none;
+           user-select: none;
+   background-image: none;
+   border: 1px solid transparent;
+   border-radius: 4px;
+}
+.ui-autocomplete button:focus,
+.ui-autocomplete button.focus {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #8c8c8c;
+}
+.ui-autocomplete button:hover {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+.ui-autocomplete button:active,
+.ui-autocomplete button.active,
+.open > .dropdown-toggle.ui-autocomplete button {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+.ui-autocomplete button:active:hover,
+.ui-autocomplete button.active:hover,
+.open > .dropdown-toggle.ui-autocomplete button:hover,
+.ui-autocomplete button:active:focus,
+.ui-autocomplete button.active:focus,
+.open > .dropdown-toggle.ui-autocomplete button:focus,
+.ui-autocomplete button:active.focus,
+.ui-autocomplete button.active.focus,
+.open > .dropdown-toggle.ui-autocomplete button.focus {
+  color: #333;
+  background-color: #d4d4d4;
+  border-color: #8c8c8c;
+}
+.ui-autocomplete button:active,
+.ui-autocomplete button.active,
+.open > .dropdown-toggle.ui-autocomplete button {
+  background-image: none;
+}
+.ui-autocomplete button.disabled:hover,
+.ui-autocomplete button[disabled]:hover,
+fieldset[disabled] .ui-autocomplete button:hover,
+.ui-autocomplete button.disabled:focus,
+.ui-autocomplete button[disabled]:focus,
+fieldset[disabled] .ui-autocomplete button:focus,
+.ui-autocomplete button.disabled.focus,
+.ui-autocomplete button[disabled].focus,
+fieldset[disabled] .ui-autocomplete button.focus {
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+
+.ui-autocomplete-loading {
+   background: white url('cargando.gif') right center no-repeat;
+}
+
+.ui-autocomplete {
+   background: #FFF;
+   max-height: 250px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+    /* add padding for vertical scrollbar */
+    padding-right: 5px;
+}
+
+.ui-autocomplete li {
+   padding: 1px 1px;
+   border-bottom: 1px solid #999;
+   font-size: 12px;
+}
